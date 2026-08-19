@@ -1,0 +1,18 @@
+[
+  {
+    "id": "math-unity-games",
+    "title": "Mathematics for Computer Games Development using Unity",
+    "issuer": "Professional Certification",
+    "year": "2021",
+    "description": "Advanced linear algebra, vector mathematics, trigonometry, 2D/3D physics matrices, and quaternion rotations for game engines.",
+    "badge": "Math & Physics"
+  },
+  {
+    "id": "design-patterns-game-programming",
+    "title": "Design Patterns for Game Programming",
+    "issuer": "Professional Certification",
+    "year": "2020",
+    "description": "Architectural mastery of creational, structural, and behavioral design patterns specifically optimized for real-time game loops and memory management.",
+    "badge": "Architecture"
+  }
+]

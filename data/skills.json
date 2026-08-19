@@ -1,0 +1,71 @@
+[
+  {
+    "category": "Programming & Languages",
+    "icon": "code",
+    "description": "Core programming languages and foundational algorithms.",
+    "skills": [
+      { "name": "C#", "level": "Expert", "details": "Advanced OOP, Async/Await, Generics, Memory Optimization, LINQ avoidance in tight loops" },
+      { "name": "C++ / HLSL", "level": "Intermediate", "details": "Shader Graph, Vertex & Fragment Shaders, GPU buffer management" },
+      { "name": "JavaScript (ES6+)", "level": "Advanced", "details": "Vanilla JS, Phaser Engine, Async/Await, Web API, DOM Manipulation" },
+      { "name": "ActionScript 3.0", "level": "Proficient", "details": "Legacy Flash conversion & vector animation rigging" }
+    ]
+  },
+  {
+    "category": "Architecture & Design Patterns",
+    "icon": "layers",
+    "description": "Clean, scalable game architecture patterns for enterprise codebases.",
+    "skills": [
+      { "name": "State Pattern", "level": "Expert", "details": "Finite State Machines for turn-based games, AI behavior, and UI flows" },
+      { "name": "Factory Pattern", "level": "Expert", "details": "Dynamic entity creation, weapon systems, and clue generation" },
+      { "name": "Observer Pattern", "level": "Expert", "details": "Decoupled event management systems for UI and gameplay" },
+      { "name": "Singleton Pattern", "level": "Expert", "details": "Thread-safe service managers & game state controllers" },
+      { "name": "Git Submodules", "level": "Expert", "details": "Modular multi-game repository structure for single client platforms" }
+    ]
+  },
+  {
+    "category": "Game Development & Engine",
+    "icon": "gamepad",
+    "description": "Unity Engine depth, physics, graphics, and performance tuning.",
+    "skills": [
+      { "name": "Unity Engine (2D/3D)", "level": "Expert", "details": "Addressables, AssetBundles, Prefab Variants, Scriptable Objects" },
+      { "name": "Mobile Games", "level": "Expert", "details": "Android & iOS optimization, touch gestures, battery efficiency" },
+      { "name": "Multiplayer Systems", "level": "Advanced", "details": "Turn-based networking, Photon, socket connections, state sync" },
+      { "name": "Performance Tuning", "level": "Expert", "details": "Memory Profiler, Frame Debugger, Deep Profiling, Draw Call Batching, Object Pooling" },
+      { "name": "UI Systems (UGUI / UI Toolkit)", "level": "Expert", "details": "Responsive layouts, dynamic canvas scalers, UI state managers" }
+    ]
+  },
+  {
+    "category": "Backend & Cloud Services",
+    "icon": "cloud",
+    "description": "Live services, telemetry analytics, and monetization SDKs.",
+    "skills": [
+      { "name": "Firebase Analytics", "level": "Advanced", "details": "Event logging, user funnel tracking, custom parameters" },
+      { "name": "Firebase Crashlytics", "level": "Advanced", "details": "Real-time crash monitoring, stack trace diagnostics" },
+      { "name": "AdMob Integration", "level": "Advanced", "details": "Banner, Interstitial, Rewarded Video ads, mediation waterfall" },
+      { "name": "Spine 2D Animation", "level": "Advanced", "details": "Skeletal animation rigs, mesh deformation, event callbacks" }
+    ]
+  },
+  {
+    "category": "Project Management & Leadership",
+    "icon": "users",
+    "description": "Agile team lead methodologies and production control.",
+    "skills": [
+      { "name": "Sprint Planning", "level": "Expert", "details": "Milestone scoping, sprint estimation, velocity tracking" },
+      { "name": "Code Reviews", "level": "Expert", "details": "Enforcing clean architecture, static analysis, performance standards" },
+      { "name": "Team Mentoring", "level": "Expert", "details": "Guiding programmers, artists, designers, and QA testers" },
+      { "name": "Cross-Functional Comms", "level": "Expert", "details": "Bridging art, design, product, and engineering teams" },
+      { "name": "Git & Version Control", "level": "Expert", "details": "Git Flow, submodules, conflict resolution, CI/CD hooks" }
+    ]
+  },
+  {
+    "category": "Platforms & Publishing",
+    "icon": "globe",
+    "description": "Store publishing, app verification, and cross-platform builds.",
+    "skills": [
+      { "name": "Android / Google Play", "level": "Expert", "details": "Google Play Console, AAB signing, target SDK updates, Policy compliance" },
+      { "name": "iOS / App Store Connect", "level": "Expert", "details": "App Store Connect, Provisioning profiles, TestFlight, App Review guidelines" },
+      { "name": "Steam / PC", "level": "Advanced", "details": "Steamworks SDK, achievements, cloud saves, build pipelines" },
+      { "name": "WebGL / HTML5", "level": "Advanced", "details": "Phaser, WebGL canvas rendering, web memory limits" }
+    ]
+  }
+]

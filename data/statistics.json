@@ -1,0 +1,44 @@
+[
+  {
+    "id": "years-experience",
+    "value": 7,
+    "suffix": "+",
+    "label": "Years Experience",
+    "description": "Professional Game Development & Technical Leadership"
+  },
+  {
+    "id": "projects-delivered",
+    "value": 15,
+    "suffix": "+",
+    "label": "Projects Delivered",
+    "description": "Commercial games shipped across Mobile, PC & Web"
+  },
+  {
+    "id": "games-published",
+    "value": 10,
+    "suffix": "+",
+    "label": "Games Published",
+    "description": "Active titles on Google Play, App Store & Steam"
+  },
+  {
+    "id": "target-platforms",
+    "value": 4,
+    "suffix": "",
+    "label": "Target Platforms",
+    "description": "Android, iOS, Steam (PC) & WebGL"
+  },
+  {
+    "id": "team-members-led",
+    "value": 10,
+    "suffix": "+",
+    "label": "Team Members Led",
+    "description": "Engineers, Designers, Artists & QA Testers"
+  },
+  {
+    "id": "production-releases",
+    "value": 20,
+    "suffix": "+",
+    "label": "Production Releases",
+    "description": "Live operations, feature updates & store patches"
+  }
+]

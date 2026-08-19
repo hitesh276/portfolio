@@ -1,0 +1,35 @@
+[
+  {
+    "id": "scaletech-solutions",
+    "company": "ScaleTech Solutions",
+    "role": "Sr. Game Developer (Team Lead)",
+    "period": "Feb 2022 – Present",
+    "location": "India",
+    "type": "Full-Time",
+    "summary": "Leading cross-functional game development teams (engineers, game designers, 2D/3D artists, QA) across multi-title pipelines from concept to Google Play & App Store distribution.",
+    "highlights": [
+      "Goal Setting & Strategic Planning: Defined technical roadmaps, sprint backlogs, and release deadlines across active production pipelines.",
+      "Team Leadership & Mentoring: Managed and mentored game designers, artists, programmers, and QA testers to ensure continuous technical growth.",
+      "Project Planning & Execution: Developed milestone plans and oversaw successful execution, maintaining a 95%+ on-time delivery record.",
+      "Cross-Functional Alignment: Established seamless communication protocols between art, design, engineering, and QA departments.",
+      "Quality Assurance & Architecture: Conducted mandatory code reviews, memory profiling, and automated build checks to eliminate technical debt early.",
+      "Continuous Improvement: Introduced modular Git submodule architecture, lowering multi-project code duplication by over 50%."
+    ],
+    "techUsed": ["Unity", "C#", "Git Submodules", "Multiplayer", "AdMob", "Firebase Analytics", "iOS & Android Publishing"]
+  },
+  {
+    "id": "time-loop-technologies",
+    "company": "Time Loop Technologies",
+    "role": "Game Developer",
+    "period": "Feb 2019 – Feb 2022",
+    "summary": "Engineered 10+ mobile, PC, and web games across casual, hyper-casual, narrative, and educational genres.",
+    "highlights": [
+      "Engine Mastery: Leveraged Unity Engine and Phaser HTML5 framework to engineer diverse titles across Mobile, PC, and Web platforms.",
+      "Design Patterns & Architecture: Applied Factory Method, Observer, State, and Singleton design patterns to construct maintainable game mechanics.",
+      "Custom Shaders & FX: Wrote HLSL shaders for dynamic water rendering and programmed Verlet rope physics and flocking AI.",
+      "High-Profile Integrations: Delivered brand campaign features (e.g. Fenty Beauty inside Karen Wazen: My World) and integrated Spine 2D animations.",
+      "Steam & Mobile Publishing: Handled Steamworks SDK integrations and mobile build optimizations for low-end devices."
+    ],
+    "techUsed": ["Unity", "C#", "Phaser", "HLSL / Shaders", "Spine 2D", "Steamworks API", "Adobe Animate"]
+  }
+]
