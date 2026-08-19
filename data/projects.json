@@ -86,7 +86,7 @@
     "shortDescription": "Addictive physics basketball arcade game with responsive tap-flick shooting mechanics and unlockable skins.",
     "fullDescription": "Served as Senior Game Developer maintaining code standards and reviewing team pull requests. Collaborated with 2D/3D artists and game designers to refine ball physics feel, net animations, and visual particle feedback.",
     "technologies": ["Unity", "C#", "RigidBody Physics", "Touch Flick Mechanics", "Code Review", "AdMob"],
-    "image": "assets/images/TapTapShot.png",
+    "image": "assets/images/TapTapShot.jpg",
     "contribution": "Enforced clean code architecture, conducted code reviews, and partnered with artists for hoop designs and dynamic court themes.",
     "challenges": "Ensuring pixel-perfect flick touch sensitivity across varied Android screen sizes and aspect ratios.",
     "solutions": "Implemented normalized screen-space impulse calculations and dynamic trajectory predictions.",
