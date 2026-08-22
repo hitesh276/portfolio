@@ -3,19 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
 
 /* Base Styles */
-@import url('./base/variables.css?v=4');
-@import url('./base/reset.css?v=4');
+@import url('./base/variables.css?v=6');
+@import url('./base/reset.css?v=6');
 
 /* Layout Styles */
-@import url('./layouts/navbar.css?v=4');
-@import url('./layouts/footer.css?v=4');
+@import url('./layouts/navbar.css?v=6');
+@import url('./layouts/footer.css?v=6');
 
 /* Component Styles */
-@import url('./components/buttons.css?v=4');
-@import url('./components/hero.css?v=4');
-@import url('./components/cards.css?v=5');
-@import url('./components/workflow.css?v=5');
-@import url('./components/modal.css?v=5');
+@import url('./components/buttons.css?v=6');
+@import url('./components/hero.css?v=6');
+@import url('./components/cards.css?v=6');
+@import url('./components/workflow.css?v=6');
+@import url('./components/modal.css?v=6');
 
 /* Non-wrapping Section Headers & Titles */
 .section-header {

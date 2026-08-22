@@ -8,11 +8,35 @@
 .workflow__track {
   display: flex;
   overflow-x: auto;
-  padding: 1.5rem 0.5rem;
+  padding: 1.5rem 0.5rem 1.75rem 0.5rem;
   gap: 1.25rem;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
+  scrollbar-color: var(--accent-primary) var(--bg-subtle);
+}
+
+/* Custom Themed Scrollbar for Product Delivery Workflow Track */
+.workflow__track::-webkit-scrollbar {
+  height: 8px;
+}
+
+.workflow__track::-webkit-scrollbar-track {
+  background: var(--bg-subtle);
+  border-radius: var(--radius-full);
+  margin: 0 0.5rem;
+}
+
+.workflow__track::-webkit-scrollbar-thumb {
+  background: var(--accent-primary);
+  border-radius: var(--radius-full);
+  border: 2px solid var(--bg-subtle);
+  transition: var(--transition-fast);
+}
+
+.workflow__track::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-primary-hover);
+  box-shadow: var(--shadow-glow);
 }
 
 .workflow__step {
