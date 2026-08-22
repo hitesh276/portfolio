@@ -325,6 +325,12 @@
   }
 }
 
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* Filter Bar Responsive Touch Scroll */
 #projectFilters {
   overflow-x: auto;
