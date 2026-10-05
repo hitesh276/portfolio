@@ -1,5 +1,47 @@
 [
   {
+    "category": "Real Money Gaming & Payment Gateways",
+    "icon": "credit-card",
+    "description": "Secure transaction pipelines, wallet management, and payment gateway architectures.",
+    "skills": [
+      { "name": "Razorpay Integration", "level": "Expert", "details": "Custom checkout flows, UPI/Cards/Netbanking, webhook signature verification, and instant callback handling" },
+      { "name": "PhonePe PG", "level": "Expert", "details": "Native SDK & UPI intent checkout, server-to-server status check, and frictionless in-game payments" },
+      { "name": "Cashfree Payments", "level": "Expert", "details": "Payment gateway, auto-collect, payouts, wallet top-up, and instant withdrawal pipelines" },
+      { "name": "RMG Architecture", "level": "Expert", "details": "Real money wallet balance sync, anti-fraud logic, transaction state machines, and deposit/withdrawal systems" }
+    ]
+  },
+  {
+    "category": "Native Plugins & Platform Bridges",
+    "icon": "cpu",
+    "description": "Custom native bridge development connecting Unity with low-level OS APIs.",
+    "skills": [
+      { "name": "Android Native Plugins", "level": "Expert", "details": "Custom Java/Kotlin .aar libraries, JNI bridges, Android Activity lifecycle, and native UI overlays" },
+      { "name": "iOS Native Plugins", "level": "Expert", "details": "Objective-C / Swift (.mm) native wrappers, UIViewController integrations, and iOS permission handlers" },
+      { "name": "Deep Linking & Callbacks", "level": "Expert", "details": "Custom URL schemes, Universal Links, App Links, and cross-boundary asynchronous messaging" }
+    ]
+  },
+  {
+    "category": "SDKs, Analytics & Attribution",
+    "icon": "activity",
+    "description": "Mobile attribution, telemetry, monetization, and in-app support SDKs.",
+    "skills": [
+      { "name": "AdMob & IronSource", "level": "Expert", "details": "Unity LevelPlay, mediation waterfalls, bidding, rewarded video, interstitial, and adaptive banner ads" },
+      { "name": "Adjust & AppsFlyer", "level": "Advanced", "details": "Mobile attribution, install tracking, deep-link event attribution, ROI analytics, and fraud prevention" },
+      { "name": "Firebase Suite", "level": "Expert", "details": "Analytics event funnels, Crashlytics diagnostics, Remote Config A/B testing, and Cloud Messaging" },
+      { "name": "Freshchat SDK", "level": "Advanced", "details": "In-app real-time customer support, live chat ticketing, and user conversation management" }
+    ]
+  },
+  {
+    "category": "Backend, Auth & LiveOps",
+    "icon": "shield",
+    "description": "Cloud player services, social graphs, and secure authentication pipelines.",
+    "skills": [
+      { "name": "PlayFab Backend", "level": "Advanced", "details": "Player authentication, cloud scripting, virtual currency economies, catalog management, and leaderboards" },
+      { "name": "Google & Apple Sign-In", "level": "Expert", "details": "Native Google Play Games / Google Sign-In and Sign in with Apple for iOS and Android compliance" },
+      { "name": "Facebook / Meta SDK", "level": "Advanced", "details": "Meta Graph API, social login, friend invites, and App Events tracking" }
+    ]
+  },
+  {
     "category": "Programming & Languages",
     "icon": "code",
     "description": "Core programming languages and foundational algorithms.",
@@ -35,14 +77,14 @@
     ]
   },
   {
-    "category": "Backend & Cloud Services",
-    "icon": "cloud",
-    "description": "Live services, telemetry analytics, and monetization SDKs.",
+    "category": "Platforms & Publishing",
+    "icon": "globe",
+    "description": "Store publishing, app verification, and cross-platform builds.",
     "skills": [
-      { "name": "Firebase Analytics", "level": "Advanced", "details": "Event logging, user funnel tracking, custom parameters" },
-      { "name": "Firebase Crashlytics", "level": "Advanced", "details": "Real-time crash monitoring, stack trace diagnostics" },
-      { "name": "AdMob Integration", "level": "Advanced", "details": "Banner, Interstitial, Rewarded Video ads, mediation waterfall" },
-      { "name": "Spine 2D Animation", "level": "Advanced", "details": "Skeletal animation rigs, mesh deformation, event callbacks" }
+      { "name": "Android / Google Play", "level": "Expert", "details": "Google Play Console, AAB signing, target SDK updates, Policy compliance" },
+      { "name": "iOS / App Store Connect", "level": "Expert", "details": "App Store Connect, Provisioning profiles, TestFlight, App Review guidelines" },
+      { "name": "Steam / PC", "level": "Advanced", "details": "Steamworks SDK, achievements, cloud saves, build pipelines" },
+      { "name": "WebGL / HTML5", "level": "Advanced", "details": "Phaser, WebGL canvas rendering, web memory limits" }
     ]
   },
   {
@@ -55,17 +97,6 @@
       { "name": "Team Mentoring", "level": "Expert", "details": "Guiding programmers, artists, designers, and QA testers" },
       { "name": "Cross-Functional Comms", "level": "Expert", "details": "Bridging art, design, product, and engineering teams" },
       { "name": "Git & Version Control", "level": "Expert", "details": "Git Flow, submodules, conflict resolution, CI/CD hooks" }
-    ]
-  },
-  {
-    "category": "Platforms & Publishing",
-    "icon": "globe",
-    "description": "Store publishing, app verification, and cross-platform builds.",
-    "skills": [
-      { "name": "Android / Google Play", "level": "Expert", "details": "Google Play Console, AAB signing, target SDK updates, Policy compliance" },
-      { "name": "iOS / App Store Connect", "level": "Expert", "details": "App Store Connect, Provisioning profiles, TestFlight, App Review guidelines" },
-      { "name": "Steam / PC", "level": "Advanced", "details": "Steamworks SDK, achievements, cloud saves, build pipelines" },
-      { "name": "WebGL / HTML5", "level": "Advanced", "details": "Phaser, WebGL canvas rendering, web memory limits" }
     ]
   }
 ]

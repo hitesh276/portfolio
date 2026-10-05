@@ -6,30 +6,47 @@
     "period": "Feb 2022 – Present",
     "location": "India",
     "type": "Full-Time",
-    "summary": "Leading cross-functional game development teams (engineers, game designers, 2D/3D artists, QA) across multi-title pipelines from concept to Google Play & App Store distribution.",
+    "summary": "Leading cross-functional game engineering teams delivering commercial mobile and real-money gaming (RMG) titles, multiplayer architectures, payment systems, and custom native platform plugins.",
     "highlights": [
-      "Goal Setting & Strategic Planning: Defined technical roadmaps, sprint backlogs, and release deadlines across active production pipelines.",
+      "Real Money Gaming (RMG) & Payments: Architected secure transaction pipelines and integrated Razorpay, PhonePe, and Cashfree payment gateways for instant wallet recharges and withdrawal flows.",
+      "Custom Native Plugin Development: Created native Android (.aar / Java / Kotlin) and iOS (.mm / Objective-C / Swift) plugins to bridge deep OS features, payment intents, and third-party SDKs into Unity.",
+      "Enterprise SDKs & Telemetry: Integrated and maintained Firebase Analytics/Crashlytics, PlayFab, AdMob, IronSource (LevelPlay), Adjust, AppsFlyer, Freshchat, and Apple/Google/Facebook Login.",
+      "Goal Setting & Strategic Planning: Defined technical roadmaps, sprint backlogs, and release deadlines across active multi-project production pipelines.",
       "Team Leadership & Mentoring: Managed and mentored game designers, artists, programmers, and QA testers to ensure continuous technical growth.",
-      "Project Planning & Execution: Developed milestone plans and oversaw successful execution, maintaining a 95%+ on-time delivery record.",
-      "Cross-Functional Alignment: Established seamless communication protocols between art, design, engineering, and QA departments.",
       "Quality Assurance & Architecture: Conducted mandatory code reviews, memory profiling, and automated build checks to eliminate technical debt early.",
-      "Continuous Improvement: Introduced modular Git submodule architecture, lowering multi-project code duplication by over 50%."
+      "Modular Architecture: Introduced modular Git submodule architecture, lowering multi-project code duplication by over 50%."
     ],
-    "techUsed": ["Unity", "C#", "Git Submodules", "Multiplayer", "AdMob", "Firebase Analytics", "iOS & Android Publishing"]
+    "techUsed": [
+      "Unity 2D/3D",
+      "C#",
+      "Real Money Gaming (RMG)",
+      "Razorpay",
+      "PhonePe",
+      "Cashfree",
+      "Android & iOS Native Plugins",
+      "Firebase",
+      "PlayFab",
+      "AdMob & IronSource",
+      "Adjust & AppsFlyer",
+      "Google & Apple Login",
+      "Freshchat",
+      "Git Submodules"
+    ]
   },
   {
     "id": "time-loop-technologies",
     "company": "Time Loop Technologies",
     "role": "Game Developer",
     "period": "Feb 2019 – Feb 2022",
-    "summary": "Engineered 10+ mobile, PC, and web games across casual, hyper-casual, narrative, and educational genres.",
+    "summary": "Engineered 10+ mobile, PC, and web games across story-driven match-3 puzzles, casual, hyper-casual, narrative, and educational genres with third-party SDK and store integrations.",
     "highlights": [
-      "Engine Mastery: Leveraged Unity Engine and Phaser HTML5 framework to engineer diverse titles across Mobile, PC, and Web platforms.",
+      "Engine Mastery & Story-Driven Puzzles: Engineered story-driven match-3 puzzle mechanics (Karen Wazen: My World), interactive narrative systems, and educational games across Mobile (iOS/Android), PC, and Web.",
+      "High-Profile Integrations: Delivered brand campaign features (e.g. Fenty Beauty partner integration) with custom UI shaders and ASTC texture optimization.",
+      "SDK & Social Integration: Integrated Facebook SDK, Google Play Services, AdMob mediation, and analytics tracking into mobile titles.",
       "Design Patterns & Architecture: Applied Factory Method, Observer, State, and Singleton design patterns to construct maintainable game mechanics.",
       "Custom Shaders & FX: Wrote HLSL shaders for dynamic water rendering and programmed Verlet rope physics and flocking AI.",
-      "High-Profile Integrations: Delivered brand campaign features (e.g. Fenty Beauty inside Karen Wazen: My World) and integrated Spine 2D animations.",
-      "Steam & Mobile Publishing: Handled Steamworks SDK integrations and mobile build optimizations for low-end devices."
+      "Steam & Mobile Publishing: Handled Steamworks SDK integrations, mobile build optimizations, and store publishing for global distribution."
     ],
-    "techUsed": ["Unity", "C#", "Phaser", "HLSL / Shaders", "Spine 2D", "Steamworks API", "Adobe Animate"]
+    "techUsed": ["Unity", "C#", "Match-3 Puzzle Engine", "AdMob", "Facebook SDK", "Phaser", "HLSL / Shaders", "Spine 2D", "Steamworks API"]
   }
 ]

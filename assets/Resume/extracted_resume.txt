@@ -1,0 +1,159 @@
+=== PAGE 1 ===
+HITESH MORI 
+SR. GAME DEVELOPER (Team Lead) 
+ +91 7874504650  
+morihitesh3327@gmail.com 
+OBJECTIVE 
+As a Team Lead, my objective is to synchronize my dual roles by organizing the collaborative efforts of 
+cross-functional teams, including product managers, art teams, game developers, and support staff. By 
+seamlessly integrating hands-on development with leadership responsibilities, I aim to inspire creativity, 
+drive innovation, and ensure the successful realization of our game's vision. Through effective 
+communication, strategic planning, and a relentless pursuit of excellence, my goal is to lead the team in 
+crafting unforgettable gaming experiences that captivate audiences and leave a lasting impact on the 
+industry. 
+ 
+EXPERIENCE 
+Feb 2022 – Present (ScaleTech Solutions) 
+As a Game Team Lead, I have worked on, 
+▪ 
+Goal Setting: Define clear, achievable goals and deadlines for the team. 
+▪ 
+Team Management: Manage and mentor team members, including game designers, artists, 
+programmers, and testers, to ensure they have the support and resources needed to succeed. 
+▪ 
+Project Planning and Execution: Develop project plans, milestones, and oversee their successful 
+execution, ensuring projects are delivered on time. 
+▪ 
+Cross-Functional Collaboration: Foster effective communication and collaboration between 
+different departments, such as art, design, programming, and QA, to ensure alignment and synergy 
+throughout the development process. 
+▪ 
+Problem Solving: Address challenges and obstacles that arise during development, providing 
+guidance and support to help the team overcome them and stay on track. 
+▪ 
+Quality Assurance: Maintain a high standard of quality throughout the development process, 
+conducting regular code reviews and testing to identify and address issues early on. 
+▪ 
+Continuous Improvement: Encourage a culture of continuous improvement within the team, 
+fostering innovation, learning, and growth to drive future success. 
+Feb 2019 – Feb 2022 (Time Loop Technologies) 
+▪ 
+Learned Unity Game Engine and Phaser web game framework. 
+▪ 
+Worked on various mobile, pc and web games like Slot, Casual, Adventure game etc. 
+
+
+=== PAGE 2 ===
+▪ 
+Worked closely with Project Manager and Art Team Manager to effectively complete projects. 
+ 
+PROJECTS 
+Citta Games (Sr. Game Developer) Link: Android, iOS 
+▪ 
+Developed multiplayer games like Ludo, Carrom, Tic Tac Toe & managed this platform. 
+▪ 
+Learn the git submodule concept to manage code for multiple games for a single platform.  
+Casual and Hyper Casual Games (Sr. Game Developer) Link: Android 
+▪ 
+Create project plans, milestones and deadlines.  
+▪ 
+Conduct regular meetings and code review to meet the best qualities of games. 
+▪ 
+Communicate with the art team and UI/UX designers to meet requirements of game assets. 
+Baby Joy Joy: Learn Music (Technical Lead)  
+Joy Joy: Jack in The Box Fun! (Technical Lead)  
+Joy Joy: Crazy Kitchen! (Technical Lead)  
+▪ 
+Task creation and decide project deadline. 
+▪ 
+Conducted code review throughout project development. 
+Interrogation Files (Game Developer) Link: Steam  
+▪ 
+Learned factory method patterns from this project. 
+▪ 
+Worked on various features implementations and bug solving. 
+Joy Joy Tracing for Kids (Game Developer)  
+▪ 
+Learned Unity Animation and State Pattern. 
+Joy Joy Halloween Costumes & Face Paint (Game Developer)  
+▪ 
+Learned Unity Spine Animation. 
+▪ 
+I had used a plugin for paint and modify code as per project requirement. 
+Joy Joy: Hide & Seek (Game Developer) 
+▪ 
+Technically handled projects throughout the development process. 
+Baby Joy Joy: Christmas Fun Game (Game Developer) 
+▪ 
+Worked on various features and bug solving. 
+Polimon: Political Masters (Game Developer)  
+▪ 
+Learned Adobe Animate and Action Script. 
+▪ 
+Implemented various features of the project. 
+Baby Joy Joy: Fishing Game (Game Developer)  
+▪ 
+Learned basic of Shader to create ocean water in game play. 
+▪ 
+Implemented AI fishes and rope mechanism. 
+Karen Wazen: My World (Game Developer) Link: iOS 
+▪ 
+Worked on Fenty Beauty campaign features and other bug solving. 
+
+
+=== PAGE 3 ===
+ 
+SKILLS 
+▪ 
+Team Leading. 
+▪ 
+Unity Game Development. 
+▪ 
+Task management. 
+CERTIFICATIONS 
+▪ 
+Mathematics for Computer Games Development using Unity 
+▪ 
+Design Patterns for Game Programming 
+EDUCATION 
+August 2015 - May 2019  
+- 
+Computer Engineering  
+ 
+ 
+ 
+ 
+ 
+GEC Bhavnagar, Gujarat (6.5 GPA) 
+June 2013 - March 2015  
+- 
+Higher Secondary Certification (H.S.C.) 
+ 
+ 
+ 
+ 
+ 
+Shikhar Public School, Dhrangadhra, Gujarat (67%) 
+March 2012 - March 2013  
+- 
+Secondary School Certification (S.S.C.) 
+ 
+ 
+ 
+ 
+ 
+Vrajendra Vidhya Vihar, Dhrangadhra, Gujarat (71%) 
+PERSONAL DETAILS 
+Date of Birth : 
+27/06/1998 
+Hobbies 
+: 
+Play Chess, Reading 
+Languages 
+: 
+English, Hindi, Gujarati (Native) 
+Address 
+: 
+Khodiyar park, Mori ni vadi, Narsipara, Dhrangadhra, Gujarat (363310) 
+
+

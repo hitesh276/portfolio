@@ -17,8 +17,8 @@ export async function initProjects() {
 
   let activeCategory = 'All';
 
-  // Extract unique categories
-  const categories = ['All', ...new Set(projects.map(p => p.category))];
+  // Filter Categories
+  const categories = ['All', 'Mobile', 'Multiplayer', 'Casual/Hypercasual', 'Kids/Educational', 'PC / Steam'];
 
   // Render Filter Buttons
   if (filterContainer) {
@@ -43,7 +43,25 @@ export async function initProjects() {
   function renderGrid() {
     const filtered = activeCategory === 'All'
       ? projects
-      : projects.filter(p => p.category === activeCategory);
+      : projects.filter(p => {
+          if (activeCategory === 'Mobile') {
+            // Includes all games on Android / iOS (excludes PC/Steam-only titles like Interrogation Files)
+            return p.platforms.some(plat => {
+              const lower = plat.toLowerCase();
+              return lower === 'android' || lower === 'ios' || lower === 'mobile';
+            });
+          }
+          if (activeCategory === 'PC / Steam' || activeCategory === 'PC/Steam') {
+            return p.platforms.some(plat => {
+              const lower = plat.toLowerCase();
+              return lower === 'steam' || lower === 'pc';
+            }) || p.category === 'PC/Steam';
+          }
+          if (activeCategory === 'Casual/Hypercasual') {
+            return p.category === 'Casual/Hypercasual' || p.category === 'Story / Match-3';
+          }
+          return p.category === activeCategory;
+        });
 
     container.innerHTML = filtered.map(project => {
       // Store buttons generation ONLY if links exist

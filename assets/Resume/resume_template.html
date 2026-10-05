@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hitesh Mori - Resume</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+    @page {
+      size: A4 portrait;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #1e293b;
+      background-color: #ffffff;
+      font-size: 10.2pt;
+      line-height: 1.52;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .page {
+      width: 210mm;
+      height: 297mm;
+      max-height: 297mm;
+      padding: 15mm 18mm 14mm 18mm;
+      position: relative;
+      background: #ffffff;
+      page-break-after: always;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      overflow: hidden;
+    }
+
+    .page:last-child {
+      page-break-after: avoid;
+    }
+
+    /* Top Accent Line */
+    .top-accent-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: linear-gradient(90deg, #1d4ed8 0%, #2563eb 50%, #0284c7 100%);
+    }
+
+    /* Header */
+    .header {
+      padding-bottom: 12pt;
+      border-bottom: 1.5px solid #e2e8f0;
+      margin-bottom: 14pt;
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 7pt;
+    }
+
+    .name-title {
+      font-size: 26pt;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: #0f172a;
+      line-height: 1.1;
+    }
+
+    .name-title .last-name {
+      color: #2563eb;
+    }
+
+    .role-badge {
+      display: inline-block;
+      background: #eff6ff;
+      color: #1d4ed8;
+      font-size: 9.8pt;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      padding: 3.5pt 9pt;
+      border-radius: 5px;
+      border: 1px solid #bfdbfe;
+    }
+
+    .contact-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16pt;
+      font-size: 9.5pt;
+      color: #475569;
+    }
+
+    .contact-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 5pt;
+      color: #334155;
+      font-weight: 500;
+    }
+
+    .contact-item svg {
+      color: #2563eb;
+      flex-shrink: 0;
+    }
+
+    /* Section Component */
+    .resume-section {
+      margin-bottom: 14pt;
+    }
+
+    .resume-section:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Section Headings */
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 6pt;
+      font-size: 11.2pt;
+      font-weight: 800;
+      color: #0f172a;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 8pt;
+    }
+
+    .section-title svg {
+      color: #2563eb;
+    }
+
+    .section-title::after {
+      content: "";
+      flex: 1;
+      height: 1.5px;
+      background: #e2e8f0;
+      margin-left: 5pt;
+    }
+
+    /* Summary Card */
+    .summary-text {
+      background: #f8fafc;
+      border-left: 3.5px solid #2563eb;
+      border-radius: 0 6px 6px 0;
+      padding: 8.5pt 11pt;
+      font-size: 9.8pt;
+      color: #334155;
+      line-height: 1.52;
+      text-align: justify;
+      border-top: 1px solid #f1f5f9;
+      border-right: 1px solid #f1f5f9;
+      border-bottom: 1px solid #f1f5f9;
+    }
+
+    /* Experience */
+    .experience-card {
+      margin-bottom: 10pt;
+    }
+
+    .experience-card:last-child {
+      margin-bottom: 0;
+    }
+
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2pt;
+    }
+
+    .exp-role {
+      font-size: 10.8pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .exp-company {
+      font-size: 10.5pt;
+      font-weight: 700;
+      color: #2563eb;
+    }
+
+    .exp-date {
+      font-size: 9pt;
+      font-weight: 600;
+      color: #475569;
+      background: #f1f5f9;
+      padding: 2pt 6pt;
+      border-radius: 4px;
+      border: 1px solid #e2e8f0;
+    }
+
+    .exp-subtitle {
+      font-size: 9.2pt;
+      color: #64748b;
+      font-style: italic;
+      margin-bottom: 4pt;
+    }
+
+    ul.bullet-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    ul.bullet-list li {
+      position: relative;
+      padding-left: 13pt;
+      margin-bottom: 4.5pt;
+      font-size: 9.5pt;
+      color: #334155;
+      line-height: 1.48;
+      text-align: justify;
+    }
+
+    ul.bullet-list li:last-child {
+      margin-bottom: 0;
+    }
+
+    ul.bullet-list li::before {
+      content: "•";
+      position: absolute;
+      left: 2pt;
+      top: -1pt;
+      font-size: 11pt;
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    ul.bullet-list li strong {
+      color: #0f172a;
+      font-weight: 600;
+    }
+
+    /* Skills Grid */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8pt;
+    }
+
+    .skill-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 7.5pt 9.5pt;
+    }
+
+    .skill-card-title {
+      font-size: 9.6pt;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 5pt;
+      display: flex;
+      align-items: center;
+      gap: 5pt;
+    }
+
+    .skill-card-title svg {
+      color: #2563eb;
+    }
+
+    .pill-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4pt;
+    }
+
+    .pill {
+      font-size: 8.6pt;
+      font-weight: 600;
+      padding: 2.2pt 6pt;
+      border-radius: 4px;
+      background: #ffffff;
+      color: #334155;
+      border: 1px solid #cbd5e1;
+    }
+
+    .pill.highlight {
+      background: #eff6ff;
+      color: #1d4ed8;
+      border-color: #93c5fd;
+      font-weight: 700;
+    }
+
+    /* Pillars on Page 2 */
+    .pillar-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-left: 3.5px solid #2563eb;
+      border-radius: 6px;
+      padding: 7.5pt 10.5pt;
+      margin-bottom: 6.5pt;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+    }
+
+    .pillar-card:last-child {
+      margin-bottom: 0;
+    }
+
+    .pillar-title {
+      font-size: 10pt;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 2pt;
+    }
+
+    .pillar-desc {
+      font-size: 9.2pt;
+      color: #475569;
+      line-height: 1.46;
+      text-align: justify;
+    }
+
+    /* 2 Column on Page 2 (Education & Details) */
+    .page2-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12pt;
+    }
+
+    .edu-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 6.5pt 8.5pt;
+      margin-bottom: 5pt;
+    }
+
+    .edu-card:last-child {
+      margin-bottom: 0;
+    }
+
+    .edu-degree {
+      font-size: 9.4pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .edu-school {
+      font-size: 8.8pt;
+      color: #2563eb;
+      font-weight: 600;
+    }
+
+    .edu-meta {
+      font-size: 8.2pt;
+      color: #64748b;
+      margin-top: 1pt;
+    }
+
+    .info-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 9pt;
+    }
+
+    .info-table td {
+      padding: 3pt 0;
+      vertical-align: top;
+    }
+
+    .info-label {
+      width: 75pt;
+      font-weight: 600;
+      color: #64748b;
+    }
+
+    .info-val {
+      color: #0f172a;
+      font-weight: 500;
+    }
+
+    .cert-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 5pt;
+      margin-bottom: 5pt;
+      font-size: 9.2pt;
+      color: #334155;
+    }
+
+    .cert-item svg {
+      color: #059669;
+      flex-shrink: 0;
+      margin-top: 2pt;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==================== PAGE 1 ==================== -->
+  <div class="page">
+    <div class="top-accent-bar"></div>
+
+    <div class="page-content">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="header-top">
+          <div class="name-title">HITESH <span class="last-name">MORI</span></div>
+          <div class="role-badge">Senior Unity Game Developer & Team Lead</div>
+        </div>
+        <div class="contact-row">
+          <span class="contact-item">
+            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            +91 7874504650
+          </span>
+          <span class="contact-item">
+            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            morihitesh3327@gmail.com
+          </span>
+          <span class="contact-item">
+            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Gujarat, India
+          </span>
+        </div>
+      </header>
+
+      <!-- SUMMARY -->
+      <section class="resume-section">
+        <div class="section-title">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          Professional Summary
+        </div>
+        <div class="summary-text">
+          Accomplished <strong>Senior Game Developer & Team Lead</strong> with 7+ years of specialized experience in game architecture, Real Money Gaming (RMG) ecosystems, and cross-platform multiplayer systems. Proven leader managing multi-disciplinary engineering, art, and QA teams to ship scalable mobile titles. Expert in payment gateway architectures (Razorpay, PhonePe, Cashfree), custom native Android & iOS plugin development, modular Git submodule pipelines, and 60 FPS mobile performance optimization.
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="resume-section">
+        <div class="section-title">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+          Professional Experience
+        </div>
+
+        <!-- JOB 1 -->
+        <div class="experience-card">
+          <div class="exp-header">
+            <div>
+              <span class="exp-role">Game Team Lead & Senior Developer</span>
+              <span style="color: #64748b; font-weight: 400;"> — </span>
+              <span class="exp-company">ScaleTech Solutions</span>
+            </div>
+            <span class="exp-date">Feb 2022 – Present</span>
+          </div>
+          <div class="exp-subtitle">Leading development across Real Money Gaming platforms, casual, and puzzle titles.</div>
+          <ul class="bullet-list">
+            <li><strong>Real Money Gaming (RMG) Architecture:</strong> Architected secure Real Money Gaming infrastructure, real-time in-app wallet balance synchronization, anti-tamper transaction state machines, and end-to-end payment gateway integrations (<strong>Razorpay, PhonePe, Cashfree</strong>) for instant deposit and withdrawal workflows.</li>
+            <li><strong>Custom Native Plugin Engineering:</strong> Developed high-performance native Android (<strong>.aar / Java / Kotlin</strong>) and iOS (<strong>.mm / Objective-C</strong>) plugin bridges facilitating seamless payment flows, secure deep linking, and telemetry.</li>
+            <li><strong>Shared Multi-Game Platform:</strong> Implemented Git submodule architecture to maintain reusable core frameworks, common networking logic, UI components, and payment services across multiple concurrent titles.</li>
+            <li><strong>Team Leadership & Sprint Planning:</strong> Lead and mentor a team of 10+ game developers, UI/UX designers, artists, and QA engineers. Establish development milestones, technical design documents, and sprint goals.</li>
+            <li><strong>Code Quality & Mentorship:</strong> Enforce rigorous code reviews, automated CI/CD build scripts, SOLID design principles, and memory optimization guidelines to ensure 60 FPS performance across low-end mobile devices.</li>
+          </ul>
+        </div>
+
+        <!-- JOB 2 -->
+        <div class="experience-card">
+          <div class="exp-header">
+            <div>
+              <span class="exp-role">Unity Game Developer</span>
+              <span style="color: #64748b; font-weight: 400;"> — </span>
+              <span class="exp-company">Time Loop Technologies</span>
+            </div>
+            <span class="exp-date">Feb 2019 – Feb 2022</span>
+          </div>
+          <div class="exp-subtitle">Engineered cross-platform mobile, PC, and HTML5 WebGL games.</div>
+          <ul class="bullet-list">
+            <li><strong>Gameplay Engineering:</strong> Built core game loops, state machines, and level progression systems for Match-3, Slot, Casual, Adventure, and Educational titles using <strong>Unity (C#)</strong> and <strong>Phaser JS</strong>.</li>
+            <li><strong>Animation & Visual FX:</strong> Implemented 2D Spine character animations, custom water/particle shaders, physics rope mechanics, and dynamic UI transitions.</li>
+            <li><strong>Cross-Department Collaboration:</strong> Partnered closely with Product Managers and Art Directors to translate game design documents into engaging interactive experiences on schedule.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+  <!-- ==================== PAGE 2 ==================== -->
+  <div class="page">
+    <div class="top-accent-bar"></div>
+
+    <div class="page-content">
+      
+      <!-- TECHNICAL SKILLS & EXPERTISE -->
+      <section class="resume-section">
+        <div class="section-title">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          Technical Skills & Competencies
+        </div>
+        <div class="skills-grid">
+          
+          <div class="skill-card">
+            <div class="skill-card-title">
+              <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+              RMG & Payments
+            </div>
+            <div class="pill-wrap">
+              <span class="pill highlight">Real Money Games</span>
+              <span class="pill highlight">Razorpay</span>
+              <span class="pill highlight">PhonePe</span>
+              <span class="pill highlight">Cashfree</span>
+              <span class="pill">Wallet Balance Sync</span>
+              <span class="pill">Transaction State Machines</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-title">
+              <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M16.5 9.4 7.55 4.24a1.78 1.78 0 0 0-2.5 1.55v12.42a1.78 1.78 0 0 0 2.5 1.55L16.5 14.6a1.78 1.78 0 0 0 0-3.2z"/></svg>
+              Game Engines & Architecture
+            </div>
+            <div class="pill-wrap">
+              <span class="pill highlight">Unity 2D / 3D</span>
+              <span class="pill highlight">C# Programming</span>
+              <span class="pill">Design Patterns (Factory, State, Singleton)</span>
+              <span class="pill">Phaser JS</span>
+              <span class="pill">JavaScript (ES6+)</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-title">
+              <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+              Native Plugin Bridges
+            </div>
+            <div class="pill-wrap">
+              <span class="pill highlight">Android (.aar / Java / Kotlin)</span>
+              <span class="pill highlight">iOS (.mm / Objective-C)</span>
+              <span class="pill">JNI Architecture</span>
+              <span class="pill">Deep Linking</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-title">
+              <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
+              LiveOps, Telemetry & Multiplayer
+            </div>
+            <div class="pill-wrap">
+              <span class="pill">Firebase</span>
+              <span class="pill">PlayFab</span>
+              <span class="pill">AppsFlyer</span>
+              <span class="pill">Adjust</span>
+              <span class="pill">AdMob / IronSource</span>
+              <span class="pill">Freshchat</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- CORE PILLARS & ARCHITECTURE IMPACT -->
+      <section class="resume-section">
+        <div class="section-title">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+          Technical Highlights & Engineering Impact
+        </div>
+
+        <div class="pillar-card" style="border-left-color: #2563eb;">
+          <div class="pillar-title">Real Money Gaming (RMG) Ecosystems & Payment Integrations</div>
+          <div class="pillar-desc">
+            Designed and deployed production-grade payment pipelines supporting <strong>Razorpay, PhonePe, and Cashfree</strong>. Built client-side state verification, cryptographic token validation, and double-spend prevention logic. Handled instant webhooks and wallet balance synchronization across multi-game real money platforms.
+          </div>
+        </div>
+
+        <div class="pillar-card" style="border-left-color: #0284c7;">
+          <div class="pillar-title">Native Mobile Bridge & Plugin Architecture</div>
+          <div class="pillar-desc">
+            Engineered low-level Android (<strong>.aar / JNI</strong>) and iOS (<strong>.mm / Objective-C</strong>) plugins to bridge platform-specific SDKs with Unity C#. Enabled direct hardware acceleration, biometric authentication, seamless deep linking, and custom in-app purchase and payout flows with zero UI lag.
+          </div>
+        </div>
+
+        <div class="pillar-card" style="border-left-color: #7c3aed;">
+          <div class="pillar-title">Scalable Code Architecture & Modular Submodules</div>
+          <div class="pillar-desc">
+            Pioneered Git submodule-based repository management to decouple core game engines, network protocols, audio managers, and UI components into reusable packages. Reduced time-to-market for new game titles by over 40% while maintaining unified code standards across development squads.
+          </div>
+        </div>
+
+        <div class="pillar-card" style="border-left-color: #059669;">
+          <div class="pillar-title">60 FPS Performance Optimization & Memory Profiling</div>
+          <div class="pillar-desc">
+            Spearheaded memory leak identification, draw-call reduction, texture atlasing, and Garbage Collection optimization for smooth 60 FPS gameplay. Integrated enterprise telemetry, analytics, and attribution stacks including <strong>Firebase, PlayFab, AppsFlyer, Adjust, AdMob, IronSource, and Freshchat</strong>.
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION, CERTIFICATIONS & DETAILS -->
+      <section class="resume-section">
+        <div class="page2-grid">
+          
+          <!-- LEFT: EDUCATION -->
+          <div>
+            <div class="section-title">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              Education
+            </div>
+            <div class="edu-card">
+              <div class="edu-degree">B.E. in Computer Engineering</div>
+              <div class="edu-school">GEC Bhavnagar (6.5 GPA)</div>
+              <div class="edu-meta">August 2015 – May 2019</div>
+            </div>
+            <div class="edu-card" style="margin-bottom:0;">
+              <div class="edu-degree">Higher Secondary Certification (H.S.C.)</div>
+              <div class="edu-school">Shikhar Public School (67%)</div>
+              <div class="edu-meta">June 2013 – March 2015</div>
+            </div>
+          </div>
+
+          <!-- RIGHT: CERTIFICATIONS & PERSONAL DETAILS -->
+          <div>
+            <div class="section-title">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+              Certifications & Details
+            </div>
+            <div class="cert-item">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <div>
+                <strong>Mathematics for Computer Games Dev</strong>
+                <div style="font-size: 8.4pt; color: #64748b;">Unity Game Engine Mathematics</div>
+              </div>
+            </div>
+            <div class="cert-item" style="margin-bottom: 6pt;">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <div>
+                <strong>Design Patterns for Game Programming</strong>
+                <div style="font-size: 8.4pt; color: #64748b;">Architectural Patterns in C# & Unity</div>
+              </div>
+            </div>
+
+            <table class="info-table">
+              <tr>
+                <td class="info-label">Date of Birth</td>
+                <td class="info-val">27 June 1998</td>
+              </tr>
+              <tr>
+                <td class="info-label">Languages</td>
+                <td class="info-val">English, Hindi, Gujarati (Native)</td>
+              </tr>
+              <tr>
+                <td class="info-label">Hobbies</td>
+                <td class="info-val">Chess, Reading Tech Articles</td>
+              </tr>
+              <tr>
+                <td class="info-label">Address</td>
+                <td class="info-val">Dhrangadhra, Gujarat (363310)</td>
+              </tr>
+            </table>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+</body>
+</html>
